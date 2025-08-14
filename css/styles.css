@@ -1,0 +1,130 @@
+/* Ren G Site Style Sheet */
+
+@font-face {
+    font-family: 'Bodoni 72';
+    src: url(../fonts/bodoni-72-book.ttf) format('opentype');
+    font-style: normal;
+}
+
+@keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+      transform: translateY(-180px); /* Start 100px above its final position */
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+
+h1 {
+    color: #492F24;
+
+    /* Heading 1 */
+    font-family: "Bodoni 72";
+    font-size: 9vw;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+}
+
+h2 {
+    color: #492F24;
+
+    /* Heading 2 */
+    font-family: "Bodoni 72";
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h3 {
+    color: #492F24;
+
+    /* Subheading */
+    font-family: "Bodoni 72";
+    font-size: 1.8vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p {
+    color: #492F24;
+
+    /* Normal Text */
+    font-family: "Bodoni 72";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a {
+    color: #492F24;
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+body {
+    background-color: #F7F4E3;
+    background-image: url("../assets/Ren-Background.svg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.landing-page {
+    opacity: 0%;
+    animation: fadeIn 1s ease-in-out forwards;
+    text-align: center;
+}
+
+.landing-page-nav-bar {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px; 
+    display: inline-flex;
+}
+
+.landing-page-nav-bar h3:hover {
+    text-decoration: underline;
+}
+
+.landing-page h1 {
+    paint-order: stroke fill; 
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #FFF;
+    margin-bottom: 0.5%;
+}
+
+.icons {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: inline-flex;
+    align-items: center;
+    gap: 19px; 
+}
+
+.icons img {
+    max-width: 100%;
+    height: auto;
+}
+
+.source-photo img {
+    max-width: 100%;
+    height: auto;
+    /*width: 100%;*/
+    flex-shrink: 1; 
+}
