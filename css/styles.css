@@ -50,7 +50,7 @@ h3 {
 
     /* Subheading */
     font-family: "Bodoni 72";
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -72,12 +72,9 @@ a {
     text-decoration: none;
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-  }
-
 body {
+    padding: 0;
+    margin: 0;
     background-color: #F7F4E3;
     background-image: url("../assets/Ren-Background.svg");
     background-size: cover;
@@ -94,7 +91,7 @@ body {
 .landing-page-nav-bar {
     justify-content: flex-start;
     align-items: center;
-    gap: 60px; 
+    gap: 40px; 
     display: inline-flex;
 }
 
@@ -123,8 +120,68 @@ body {
 }
 
 .source-photo img {
-    max-width: 100%;
-    height: auto;
-    /*width: 100%;*/
     flex-shrink: 1; 
+    height: auto; 
+    width: auto; 
+    max-width: 45vw; 
+    max-height: 45vh;
 }
+
+/* navbar div class */
+
+.navbar-logo {
+    margin: 0;
+    position: static;   /* stick at top */
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    position: static;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 4vw;
+    padding-right: 8vw;
+    height: auto; 
+}
+
+.logo h1 {
+    margin: 0;
+    padding-top: 3.5vh;
+    color: #FFB8C3;
+    font-size: 8vw;
+}
+
+.navbar {
+    padding-left: 2vw;
+    display: inline-flex;
+    align-items: center;
+    gap: 93px;
+}
+
+.navbar h3 {
+    font-size: 1.8vw;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.intro-text {
+    opacity: 0%;
+    animation: fadeIn 1s ease-in-out forwards;
+    margin-left: 13vw;
+    margin-right: 5vw;
+}
+
+.intro-text h2 {
+    font-size: 6vw;
+}
+
+.intro-text span {
+    color: #FFB8C3;
+}
+
+/* sidebar */
+
