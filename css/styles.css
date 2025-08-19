@@ -220,6 +220,7 @@ footer p {
 .live-dates h2 {
     margin: 0;
     padding-top: 5vh;
+    padding-bottom: 2vh;
 }
 
 .shows {
@@ -239,6 +240,10 @@ footer p {
     opacity: 0%;
     animation: fadeIn 1s ease-in-out forwards;
     text-align: center;
+}
+
+.contact h2:hover {
+    color:#FFB8C3;
 }
 
 .navbar-videos h1 {
@@ -309,7 +314,16 @@ footer p {
 }
 
 .release-text p {
+    text-align: left;
     color: #FFB8C3;
+}
+
+.release-text a {
+    color: #FFB8C3;
+}
+
+.release-text a:hover {
+    text-decoration: underline;
 }
 
 .release-text {
