@@ -213,8 +213,8 @@ body {
     text-align: center;
 }
 
-.videos {
-    display: block;
+.navbar-videos h1 {
+    padding-bottom: 10vh;
 }
 
 .videos iframe {
