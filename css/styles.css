@@ -73,6 +73,7 @@ a {
 }
 
 body {
+    cursor: url("../assets/93c81736d55c7366d7c9586e9c1e0f79.gif"), auto;
     padding: 0;
     margin: 0;
     background-color: #F7F4E3;
@@ -183,5 +184,31 @@ body {
     color: #FFB8C3;
 }
 
-/* sidebar */
+/* shows */
 
+.dates-and-shows {
+    opacity: 0%;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.live-dates {
+    text-align: center;
+}
+
+.shows {
+    margin-left: 26vw;
+    margin-right: 5vw;
+}
+
+.shows p span {
+    color: #FFB8C3;
+}
+
+/* contact page */
+
+.contact {
+    padding-top: 11vh;
+    opacity: 0%;
+    animation: fadeIn 1s ease-in-out forwards;
+    text-align: center;
+}
