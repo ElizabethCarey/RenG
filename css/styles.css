@@ -212,3 +212,22 @@ body {
     animation: fadeIn 1s ease-in-out forwards;
     text-align: center;
 }
+
+.videos {
+    display: block;
+}
+
+.videos iframe {
+    border: 10px solid #ffffff;
+    margin-bottom: 0;
+    margin-top: 5vh;
+    margin-left: 20vw;
+}
+
+.videos h2 {
+    font-size: 8vw;
+    margin-top: 0;
+    padding-top: 2vh;
+    text-align: center;
+}
+
