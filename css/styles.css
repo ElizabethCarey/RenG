@@ -78,12 +78,13 @@ a {
 }
 
 body {
+    background-image: url("../assets/Background-2.svg");
     cursor: url("../assets/93c81736d55c7366d7c9586e9c1e0f79.gif"), auto;
     padding: 0;
     margin: 0;
     background-color: #f4f2ed;
-    background-size: cover;
-    background-repeat: repeat;
+    background-attachment: fixed;
+    /*background-repeat: repeat;*/
     background-position: center;
 }
 
@@ -103,7 +104,6 @@ footer p {
 /* landing page */
 
 .landing-page {
-    background-image: url("../assets/Ren-Background.svg");
     opacity: 0%;
     animation: fadeIn 1s ease-in-out forwards;
     text-align: center;
@@ -151,37 +151,37 @@ footer p {
 /* navbar div class (for all other pages) */
 
 .navbar-logo {
+    position: static;
+    display: inline-flex;
     margin: 0;
-    position: static;   /* stick at top */
     top: 0;
     left: 0;
     width: 100%;
 }
 
 .logo {
-    position: static;
-    display: inline-flex;
-    align-items: center;
-    padding-left: 4vw;
-    padding-right: 8vw;
-    height: auto; 
+    height: 7vh;
+    padding-right: 8.2vw;
 }
 
 .logo h1 {
+    letter-spacing: -3%;
     margin: 0;
-    padding-top: 3.5vh;
+    padding-left: 2vw;
+    padding-top: 1.5vh;
     color: #FFB8C3;
-    font-size: 8vw;
+    font-size: 7.4vw;
 }
 
 .navbar {
-    padding-left: 2vw;
+    height: 7vh;
     display: inline-flex;
-    align-items: center;
-    gap: 93px;
+    gap: 8.2vw;
+    margin-bottom: 0;
 }
 
 .navbar h3 {
+    padding-top: 7vh;
     font-size: 1.8vw;
 }
 
@@ -192,14 +192,17 @@ footer p {
 /* homepage */
 
 .intro-text {
+    height: auto;
     opacity: 0%;
     animation: fadeIn 1s ease-in-out forwards;
-    margin-left: 13vw;
-    margin-right: 5vw;
+    margin: 0;
 }
 
 .intro-text h2 {
-    font-size: 6vw;
+    margin-top: 14vh;
+    margin-left: 14vw;
+    margin-right: 10vw;
+    font-size: 5.7vw;
 }
 
 .intro-text span {
@@ -252,6 +255,27 @@ footer p {
 
 /* music videos */
 
+.most-recent-video {
+    padding-top: 6vh;
+    opacity: 0%;
+    animation: fadeIn 1s ease-in-out forwards;
+    animation: slideInFromBottom 1s ease-in-out forwards;
+}
+
+.most-recent-video h3 {
+    font-size: 4vw;
+    margin: 0;
+    padding-top: 2vh;    
+    padding-bottom: 10vh;
+    text-align: center;
+}
+
+.most-recent-video iframe {
+    border: 10px solid #ffffff;
+    margin-bottom: 0;
+    margin-left: 20vw;
+}
+
 .videos h3 {
     font-size: 4vw;
     margin: 0;
@@ -271,14 +295,6 @@ footer p {
     margin-bottom: 0;
     margin-top: 5vh;
     margin-left: 20vw;
-}
-
-.videos h2 {
-    font-size: 8vw;
-    margin: 0;
-    padding-top: 4vh;
-
-    text-align: center;
 }
 
 /* releases */
