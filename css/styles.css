@@ -222,6 +222,7 @@ footer p {
 
 .live-dates h2 {
     margin: 0;
+    font-size: 10vw;
     padding-top: 5vh;
     padding-bottom: 2vh;
 }
@@ -273,14 +274,13 @@ footer p {
 .most-recent-video iframe {
     border: 10px solid #ffffff;
     margin-bottom: 0;
-    margin-left: 20vw;
 }
 
 .videos h3 {
     font-size: 4vw;
     margin: 0;
-    padding-top: 2vh;    
-    padding-bottom: 10vh;
+    padding-top: 4.5vh;    
+    padding-bottom: 8vh;
     text-align: center;
 }
 
@@ -293,9 +293,25 @@ footer p {
 .videos iframe {
     border: 10px solid #ffffff;
     margin-bottom: 0;
-    margin-top: 5vh;
-    margin-left: 20vw;
+    margin-top: 3vh;
 }
+
+.video-container {
+    position: relative;
+    width: 80%;
+    max-width: 840px; /* optional cap */
+    aspect-ratio: 16 / 9; /* keeps video ratio */
+    margin: 0 auto; /* center it */
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
 
 /* releases */
 
@@ -363,3 +379,65 @@ footer p {
     color: #FFB8C3;
 }
 
+@media screen and (max-width: 768px) {
+    .navbar-logo {
+        position: static;
+        display: block;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 0;
+        height: 7vh;
+        text-align: center;
+    }
+
+    .logo h1 {
+        font-size: 10vw;
+    }
+
+    .navbar h3 {
+        font-size: 2.4vw;
+        padding-top: 3.5vh;
+    }
+
+    .navbar {
+        margin-left: 11vw;
+        display: flex;
+        gap: 8.2vw;
+        margin-bottom: 0;
+    }
+
+    .intro-text h2 {
+        margin-top: 20vh;
+        margin-left: 12vw;
+        margin-right: 8vw;
+        font-size: 7vw;
+    }
+
+    .shows p {
+        font-size: 3vw;
+    }
+
+    .shows {
+        margin-left: 12vw;
+    }
+
+    .contact h2 {
+        padding-top: 12vh;
+        font-size: 12vw;
+    }
+
+    .most-recent-video h3 {
+        padding-bottom: 5vh;
+    }
+
+    .videos h3 {
+        padding-bottom: 5vh;
+    }
+
+
+}
