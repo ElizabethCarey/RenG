@@ -147,6 +147,7 @@ footer p {
     width: auto; 
     max-width: 50vw; 
     max-height: 50vh;
+    border: 0.3vw solid #FFFFFF;
 }
 
 /* navbar div class (for all other pages) */
@@ -423,6 +424,7 @@ footer p {
         max-width: 55vw; 
         max-height: 55vh;
     }
+    
 
     .navbar-logo {
         position: static;
