@@ -244,7 +244,7 @@ footer p {
 
 .shows {
     animation: slideInFromBottom 1s ease-in-out forwards;
-    margin-left: 26vw;
+    margin-left: 28vw;
     margin-right: 5vw;
 }
 
@@ -256,7 +256,7 @@ footer p {
 }
 
 .shows p span {
-    color: #FFB8C3;
+    color: #fc92a2;
 }
 
 /* contact page */
@@ -488,7 +488,7 @@ footer p {
     }
 
     .shows {
-        margin-left: 19vw;
+        margin-left: 20.5vw;
     }
 
     .contact h2 {
