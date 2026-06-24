@@ -364,7 +364,7 @@ footer p {
 }
 
 .release-text-img img {
-    max-width: 22.5vw;
+    max-width: 25.5vw;
     height: auto;
     flex-shrink: 1;
     object-fit: contain;
