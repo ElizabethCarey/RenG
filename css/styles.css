@@ -232,8 +232,8 @@ footer p {
 
 .live-dates h2 {
     margin: 0;
-    font-size: 9vw;
-    padding-top: 5vh;
+    font-size: 8vw;
+    padding-top: 7vh;
     padding-bottom: 4vh;
 }
 
@@ -480,6 +480,10 @@ footer p {
         margin-left: 12vw;
         margin-right: 8vw;
         font-size: 7vw;
+    }
+
+    .live-dates {
+        font-size: 9vw;
     }
 
     .shows p {
