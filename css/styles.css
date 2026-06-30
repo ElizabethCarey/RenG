@@ -178,7 +178,7 @@ footer p {
     padding-top: 1.5vh;
     color: #FFB8C3;
     paint-order: stroke fill; 
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #492F24;
     font-size: 7.4vw;
 }
@@ -371,7 +371,7 @@ footer p {
 }
 
 .release-text h3 {
-    font-size: 4vw;
+    font-size: 3vw;
     margin: 0;
 }
 
